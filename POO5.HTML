@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooo</title>
+</head>
+<body>
+    
+
+    <script> 
+    
+
+    class Animal{
+        
+        constructor(raca, idade, pais, viajou, km, metros){
+
+            this.raca = raca;
+            this.idade = idade;
+            this.pais = pais; 
+            this.viajou = viajou;
+            this.km = km;
+            this.metros = metros;
+              
+
+        }
+      
+       dadosAnimal(){
+            if(this.idade <= 15){
+    console.log(this.raca,"com a  idade:"+ this.idade,
+    "nascido no pais " + this.pais, "viajou ? " + this.viajou,
+    "percorreu " + this.km + "km", "e" + this.metros + "metros"  
+    )
+
+ 
+
+            } else {
+                console.log(this.raca, 'e um animal velho e nao temos mais informacoes'
+                
+                )
+                
+            }
+        } 
+
+       
+    
+    }
+
+
+
+    let animal1 = new Animal('Pastor alemao', 1, "Brasil", "Sim", 30, 33)
+    let animal2 =  new Animal   ('Hotwiller', 2, "USA", "Sim", 10, 20)
+    let animal3 =  new Animal ('Pintcher', 0.6, "Canada", "Nao", 8, 21)
+    let animal4 = new Animal('Pitbull', 3, "Argentina", "sim", 3, 10)
+    let animal5 =  new Animal   ('Baleia', 12, "Africa", "sim", 288, 19)
+    let animal6 =  new Animal ('Tubarao', 7, "Tokyo", "sim", 300, 10)
+    let animal7 =  new Animal ('Hipopotamo', 18, "Tokyo", "sim", 230, 10)
+
+ animal1.dadosAnimal()
+ animal2.dadosAnimal()
+ animal3.dadosAnimal()
+ animal4.dadosAnimal()
+ animal5.dadosAnimal()
+ animal6.dadosAnimal()
+
+ 
+    
+    </script>
+</body>
+</html>
